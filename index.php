@@ -32,13 +32,13 @@
 
 <?php 
  $args = array(
-    'post_parent' => 7,
+    'post_parent' => 35,
     'post_type' => 'page'
     ); 
     $posts = get_posts($args);
             if (! $posts){ ?>
             <p class="speaker-empty">Coming soon!</p>
-            <style>.l-speaker::after {top: -100%;height: 480%;}</style>
+            <style>.l-speaker::after {top: -200%;height: 480%;}</style>
 <?php } 
             foreach($posts as $post) {
                 $post_id = $post->ID; 
