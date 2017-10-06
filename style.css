@@ -568,7 +568,6 @@ a.page-numbers:focus {
 .eyecatch-top {
     width: 80%;
     margin: auto;
-    padding-bottom: 4%;
     line-height: 1;
     font-size: 2rem;
     border-bottom: 2px solid #666;
@@ -586,13 +585,13 @@ a.page-numbers:focus {
     margin-top: 4%;
     margin-bottom: 2%;
     font-size: 1.8rem;
-    color: #999;
+    color: #333;
 }
 
 .top-logo svg {
     width: 70%;
     padding-left: 4%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     display: inline-block;
 }
 
@@ -896,7 +895,9 @@ footer a:focus {
     display: inline-block;
     padding: 4% 0;
 }
-
+.l-article {
+    padding-top: 45px;
+}
 .l-article__cotent {
     display: block;
     line-height: 1.8;
@@ -1275,11 +1276,6 @@ input[type="submit"]:focus {
     z-index: 100000;
 }
 
-.logo a {
-    line-height: 2.2;
-    color: #000;
-    font-weight: normal;
-}
 
 .l-sp-header__inner {
     background-color: transparent;
@@ -1291,6 +1287,9 @@ input[type="submit"]:focus {
     right: 0;
     overflow: hidden;
     -webkit-transform: scale(1);
+}
+.l-sp-header img {
+    padding-top: 14px;
 }
 
 .menu-trigger,
@@ -1553,6 +1552,7 @@ input[type="submit"]:focus {
     -webkit-flex-flow: row wrap;
     justify-content: flex-start;
     width: 100%;
+    padding-top: 45px;
     background-color: #000;
     box-shadow: 0px 0px 3px -1px #000000;
 }
@@ -1768,7 +1768,7 @@ input[type="submit"]:focus {
     }
     .l-header__logo {
         width: 20%;
-        line-height: 1;
+        line-height: .5;
     }
     .l-header__gnav {
         width: 50%;

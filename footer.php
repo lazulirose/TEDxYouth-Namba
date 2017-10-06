@@ -4,19 +4,19 @@
             <h4 class="about-head">TEDxYouth Namba</h4>
             <p class="about-content">“大阪にあるアイデアを発信する場をつくり、若者がインスピレーションを受けられる場をつくりたい！”という思いをもつ有志による、TEDxYouthコミュニティです。</p>
             <p class="about-content">2018年3月3日（土）TEDxYouth@Namba「爆発」を開催します。</p>
-            <a class="about-link" href="">プライバシーポリシー</a>
+<!--            <a class="about-link" href="">プライバシーポリシー</a>-->
         </div>
-        <a class="twitter-timeline" href="https://twitter.com/TEDxYouthNamba" data-width="320" data-height="320" data-chrome="noheader nofooter noborders transparent noscrollbar">Tweets by TEDxYouthNamba</a>
+        <a class="twitter-timeline" href="https://twitter.com/TEDxYouthNamba" data-width="320" data-height="320" data-chrome="noheader nofooter noborders transparent noscrollbar" target="blank">Tweets by TEDxYouthNamba</a>
         <div class="fb-page" data-href="https://www.facebook.com/TEDxYouthNamba/?hc_ref=ARRkUhJIFHS701Ou3iNW_dSysbvVSPG75mWYX7acEXcNcMf01V24YM1GOLkDGRwi9lI&amp;pnref=story" data-tabs="timeline" data-height="320" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
             <blockquote cite="https://www.facebook.com/TEDxYouthNamba/?hc_ref=ARRkUhJIFHS701Ou3iNW_dSysbvVSPG75mWYX7acEXcNcMf01V24YM1GOLkDGRwi9lI&amp;pnref=story" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TEDxYouthNamba/?hc_ref=ARRkUhJIFHS701Ou3iNW_dSysbvVSPG75mWYX7acEXcNcMf01V24YM1GOLkDGRwi9lI&amp;pnref=story">TEDxYouth Namba</a></blockquote>
         </div>
         <ul class="sp-only footer-sns-links effect">
             <li class="l-list-item sns-item">
-                <a href="https://twitter.com/TEDxYouthNamba"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/TEDxYouthNamba" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
-            <li class="l-list-item sns-item"><a href="https://www.facebook.com/TEDxYouthNamba/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <li class="l-list-item sns-item"><a href="https://www.facebook.com/TEDxYouthNamba/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </li>
-            <li class="l-list-item sns-item"><a href="https://www.youtube.com/user/TEDxYouth"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+            <li class="l-list-item sns-item"><a href="https://www.youtube.com/user/TEDxYouth" target="blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>

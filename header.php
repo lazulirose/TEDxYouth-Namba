@@ -97,12 +97,12 @@
             <?php if (is_page() || is_single()) { ?>
             <div class="l-header__inner bg">
             <p class="l-header__logo logo">
-                <a href="<?php echo home_url(); ?>"><span class="tedx-logo">TEDx</span>Youth@Namba</a>
+                <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/tedx.svg" alt="tedxlogo"></a>
             </p>
             <?php } else { ?>
             <div class="l-header__inner bg">
             <h1 class="l-header__logo logo">
-                <a href="<?php echo home_url(); ?>"><span class="tedx-logo">TEDx</span>Youth@Namba</a>
+                <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/tedx.svg" alt="tedxlogo"></a>
             </h1>
             <?php } ?>
 
@@ -120,21 +120,21 @@
                     <li class="gnav-item"><a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
                 </ul>
                 <ul class="gnav-sns">
-                    <li class="gnav-item sns-item"><a class="sns-icon" href="https://twitter.com/TEDxYouthNamba"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li class="gnav-item sns-item"><a class="sns-icon" href="https://www.facebook.com/TEDxYouthNamba/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li class="gnav-item sns-item"><a class="sns-icon" href="https://www.youtube.com/user/TEDxYouth"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                    <li class="gnav-item sns-item"><a class="sns-icon" href="https://twitter.com/TEDxYouthNamba" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="gnav-item sns-item"><a class="sns-icon" href="https://www.facebook.com/TEDxYouthNamba/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="gnav-item sns-item"><a class="sns-icon" href="https://www.youtube.com/user/TEDxYouth" target="blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
                 </ul>
             </nav>
         </div>
         <?php if (is_page() || is_single()) { ?>
         <div class="l-sp-header bg only-sp">
             <p class="logo">
-                <a href="<?php echo home_url(); ?>"><span class="tedx-logo">TEDx</span>Youth@Namba</a>
+                <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/tedx-sp.svg" alt="tedxlogo"></a>
             </p>
             <?php } else { ?>
             <div class="l-sp-header only-sp">
                 <h1 class="logo">
-                    <a href="<?php echo home_url(); ?>"><span class="tedx-logo">TEDx</span>Youth@Namba</a>
+                    <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/tedx-sp.svg" alt="tedxlogo"></a>
                 </h1>
                 <?php } ?>
 <!--menu only-sp-->
@@ -166,9 +166,9 @@
                                 <li class="spnav-item">
                                     <a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
                                 <li class="spnav-item sns">
-                                    <a class="sns-icon" href="https://twitter.com/TEDxYouthNamba"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a class="sns-icon" href="https://www.facebook.com/TEDxYouthNamba/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a class="sns-icon" href="https://www.youtube.com/user/TEDxYouth"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                                    <a class="sns-icon" href="https://twitter.com/TEDxYouthNamba" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a class="sns-icon" href="https://www.facebook.com/TEDxYouthNamba/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a class="sns-icon" href="https://www.youtube.com/user/TEDxYouth" target="blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
                         </div>

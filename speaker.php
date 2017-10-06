@@ -48,7 +48,7 @@ echo get_the_title($parent_id);
                 <div class="l-speaker none">
 <?php 
  $args = array(
-    'post_parent' => 35,
+    'post_parent' => 7,
     'post_type' => 'page'
     ); 
     
