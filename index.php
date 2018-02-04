@@ -79,7 +79,7 @@ if ($pages) {
             <?php endwhile; ?>
         </div>
         <a class="showmore effect" href="<?php echo home_url('/archives'); ?>">- Show more -</a>
-        <div class="application-btn"><a href="" class="effect"><img src="<?php bloginfo('template_directory'); ?>/images/btn.svg" alt=""></a></div>
+        <div class="application-btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLScbbUayQzsW-U44iXdLbnhe4ECtZhp_iJSEfB4fvQ8uux_iQQ/viewform" class="effect" target="blank"><img src="<?php bloginfo('template_directory'); ?>/images/btn.svg" alt=""></a></div>
     </div>
 </main>
 <?php get_footer(); ?>

@@ -21,7 +21,7 @@
             </li>
         </ul>
     </div>
-    <small class="copyright">&#169; <a href="https://lilium-u.github.io/">Yuri TANAKA</a>, TEDxNamba is operated under license from TED</small>
+    <small class="copyright">&#169; <a href="https://lilium-u.github.io/" target="blank">Yuri TANAKA</a>, TEDxNamba is operated under license from TED</small>
 </footer>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <div id="fb-root"></div>

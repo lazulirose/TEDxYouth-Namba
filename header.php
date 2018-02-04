@@ -117,7 +117,7 @@
                     <ul class="gnav-sns">
                         <li class="gnav-item sns-item"><a class="sns-icon" href="https://twitter.com/TEDxYouthNamba" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         <li class="gnav-item sns-item"><a class="sns-icon" href="https://www.facebook.com/TEDxYouthNamba/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li class="gnav-item header-application"><a href="https://www.youtube.com/user/TEDxYouth" target="blank"><img src="<?php bloginfo('template_directory'); ?>/images/btn_header.svg" alt="申し込みボタン"></a></li>
+                        <li class="gnav-item header-application"><a href="https://docs.google.com/forms/d/e/1FAIpQLScbbUayQzsW-U44iXdLbnhe4ECtZhp_iJSEfB4fvQ8uux_iQQ/viewform" target="blank"><img src="<?php bloginfo('template_directory'); ?>/images/btn_header.svg" alt="申し込みボタン"></a></li>
                     </ul>
                 </nav>
             </div>
@@ -131,7 +131,7 @@
                     <h1 class="logo">
                         <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/tedx-sp.svg" alt="tedxlogo"></a>
                     </h1>
-<!--
+                    <!--
 <a href="https://www.youtube.com/user/TEDxYouth" target="blank"><img src="<?php bloginfo('template_directory'); ?>/images/btn_header.svg" alt="申し込みボタン"></a>
 -->
                     <?php } ?>
