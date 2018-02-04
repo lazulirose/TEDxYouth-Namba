@@ -3,13 +3,13 @@
 Template Name: SPEAKER
 */
 ?>
-<?php get_header(); ?>
-<?php $s = $_GET['s']; ?>
-<?php if (is_page() && $post->post_parent) { ?>
-    <main>
+    <?php get_header(); ?>
+    <?php $s = $_GET['s']; ?>
+    <?php if (is_page() && $post->post_parent) { ?>
+    <main id="top">
         <div class="first-effect effect">
             <p class="l-page-header">
-<?php
+                <?php
 $parent_id = $post->post_parent;
 if ($parent_id) {
 echo get_the_title($parent_id);
@@ -24,18 +24,21 @@ echo get_the_title($parent_id);
                 </div>
                 <div class="speaker-content">
                     <h1 class="speaker-title">
-<?php the_title(); ?>
+                        <?php the_title(); ?>
                     </h1>
-<?php the_content(); ?>
+                    <?php the_content(); ?>
+                    <a href="<?php echo home_url('/speaker'); ?>" class="speaker-back">
+                        &lt; Back </a>
                 </div>
+
             </div>
         </div>
     </main>
-<?php } else { ?>
-    <main>
+    <?php } else { ?>
+    <main id="top">
         <div class="first-effect effect">
             <p class="l-page-header">
-<?php
+                <?php
 $parent_id = $post->post_parent;
 if ($parent_id) {
 echo get_the_title($parent_id);
@@ -46,10 +49,11 @@ echo get_the_title($parent_id);
             </p>
             <div class="l-page">
                 <div class="l-speaker none">
-<?php 
+                    <?php 
  $args = array(
-    'post_parent' => 35,
-    'post_type' => 'page'
+    'post_parent' => 7,
+    'post_type' => 'page',
+     'posts_per_page' => 10,
     ); 
     
 $posts = get_posts($args);
@@ -70,5 +74,5 @@ foreach($posts as $post) {
             </div>
         </div>
     </main>
-<?php }?>
-<?php get_footer(); ?>
+    <?php }?>
+    <?php get_footer(); ?>

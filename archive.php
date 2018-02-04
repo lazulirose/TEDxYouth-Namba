@@ -3,10 +3,10 @@
 Template Name: Archives
 */
 get_header(); ?>
-<main>
-<p class="archives-header first-effect effect">Archives</p>
-<div class="l-archives" role="main">
-		<?php
+    <main id="top">
+        <p class="archives-header first-effect effect">Archives</p>
+        <div class="l-archives" role="main">
+            <?php
 		$paged = (int) get_query_var('paged');
 		$args = array(
 			'posts_per_page' => 4,
@@ -24,8 +24,8 @@ get_header(); ?>
 		endif;
 		wp_reset_postdata();
 		?>
-	<div class="archives-paging effect">
-		<?php
+                <div class="archives-paging effect">
+                    <?php
 		if ($the_query->max_num_pages > 1) {
 			echo paginate_links(array(
 				'base' => get_pagenum_link(1) . '%_%',
@@ -36,8 +36,8 @@ get_header(); ?>
 		}
 		wp_reset_postdata();
 		?>
-	</div>
-</div>
-</main>
+                </div>
+        </div>
+    </main>
 
-<?php get_footer(); ?>
+    <?php get_footer(); ?>

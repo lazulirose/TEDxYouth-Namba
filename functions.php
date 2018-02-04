@@ -13,6 +13,6 @@ function is_parent_slug() {
 
 function five_posts_on_homepage( $query ) {
     if ( $query->is_home() && $query->is_main_query() ) {
-        $query->set( 'posts_per_page', '6' );
+        $query->set( 'posts_per_page', '10' );
     }
 }
