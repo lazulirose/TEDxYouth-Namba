@@ -615,7 +615,7 @@ a.page-numbers:focus {
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center center;
-        background-image: url(./images/bg.jpg);
+        background-image: url(./images/bg.png);
         position: relative;
     }
     .l-hero::after {
