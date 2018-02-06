@@ -32,34 +32,33 @@ Template Name: PARTNER
                     <div class="l-inkind" itemscope itemtype="http://schema.org/makesOffer">
                         <h2 class="inkind-header effect">Inkind-Partner</h2>
                         <ul class="list-banner">
-                            <!--
-<li class="banner">
-    <a class="effect" href="http://www.cima-net.co.jp/" target="_blank" itemprop="url"><img src="https://placehold.jp/150x150.png" alt="シーマ" itemprop="image">
+                            <li class="banner">
+                                <a class="effect" href="http://www.cima-net.co.jp/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/cima.png" alt="シーマ" itemprop="image">
         <h3>株式会社シーマ</h3>
     </a>
-</li>
--->
+                            </li>
                             <li class="banner">
                                 <a class="effect" href="http://www.senoya.jp/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/senoya.png" alt="せのや" itemprop="image"><h3>株式会社せのや</h3></a>
                             </li>
+                            <li class="banner">
+                                <a class="effect" href="http://www.cima-net.co.jp/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/chibo.png" alt="千房" itemprop="image"></a>
+                            </li>
                             <!--
                             <li class="banner">
-                                <a class="effect" href="" target="_blank" itemprop="url"><img src="https://placehold.jp/150x150.png" alt="千房" itemprop="image"></a>
+                                <a class="effect" href="" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/" alt="デジタルハリウッド" itemprop="image"></a>
                             </li>
+-->
                             <li class="banner">
-                                <a class="effect" href="" target="_blank" itemprop="url"><img src="https://placehold.jp/150x150.png" alt="デジタルハリウッド" itemprop="image"></a>
-                            </li>
-                            <li class="banner">
-                                <a class="effect" href="http://www.fujixerox.co.jp/" target="_blank" itemprop="url"><img src="https://placehold.jp/150x150.png" alt=" 富士ゼロックス" itemprop="image">
+                                <a class="effect" href="http://www.fujixerox.co.jp/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/fujixerox.png" alt=".png 富士ゼロックス" itemprop="image">
                                     <h3>富士ゼロックス株式会社</h3>
                                 </a>
                             </li>
                             <li class="banner">
-                                <a class="effect" href="https://peatix.com/" target="_blank" itemprop="url"><img src="https://placehold.jp/150x150.png" alt="peatix" itemprop="image">
+                                <a class="effect" href="https://peatix.com/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/peatix.png" alt="peatix" itemprop="image">
                                     <h3>Peatix</h3>
                                 </a>
                             </li>
--->
+
                         </ul>
                     </div>
 
