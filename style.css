@@ -1487,6 +1487,7 @@ footer a:focus {
 }
 
 .banner img {
+    margin-top: 16px;
     max-width: 150px;
     max-height: 150px;
 }

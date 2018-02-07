@@ -34,14 +34,16 @@ Template Name: PARTNER
                         <ul class="list-banner">
                             <li class="banner">
                                 <a class="effect" href="http://www.cima-net.co.jp/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/cima.png" alt="シーマ" itemprop="image">
-        <h3>株式会社シーマ</h3>
-    </a>
+                                <h3>株式会社シーマ</h3>
+                                </a>
                             </li>
                             <li class="banner">
                                 <a class="effect" href="http://www.senoya.jp/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/senoya.png" alt="せのや" itemprop="image"><h3>株式会社せのや</h3></a>
                             </li>
                             <li class="banner">
-                                <a class="effect" href="http://www.cima-net.co.jp/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/chibo.png" alt="千房" itemprop="image"></a>
+                                <a class="effect" href="http://www.cima-net.co.jp/" target="_blank" itemprop="url"><img src="<?php bloginfo('template_directory'); ?>/images/chibo.png" alt="千房" itemprop="image">
+                                <h3>千房</h3>
+                                </a>
                             </li>
                             <!--
                             <li class="banner">
