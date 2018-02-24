@@ -310,6 +310,14 @@ main {
     transition: .32s;
 }
 
+
+/* Remove ? */
+
+.l-logo .banner:hover,
+.l-logo .banner:focus {
+    opacity: 1;
+}
+
 .article-cotent a:hover,
 .pagination a:hover,
 a.page-numbers:hover .article-cotent a:focus,
@@ -719,7 +727,8 @@ a.page-numbers:focus {
     line-height: 1.8;
 }
 
-.l-partner {
+.l-partner,
+.l-inkind {
     margin-bottom: 88px;
 }
 
@@ -1865,6 +1874,8 @@ input[type="submit"]:focus {
 }
 
 .l-title-blog {
+    position: relative;
+    z-index: 1000000;
     padding-left: 6%;
     color: #fff;
 }
@@ -2014,8 +2025,7 @@ input[type="submit"]:focus {
         left: -40px;
     }
     .l-title-blog {
-        background-color: #f6f6f6;
-        color: #333;
+        padding-top: 16px;
     }
     .l-articles__inner {
         position: relative;
