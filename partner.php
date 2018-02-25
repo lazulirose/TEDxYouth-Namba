@@ -89,9 +89,8 @@ Template Name: PARTNER
                         <h2 class="inkind-header effect">Logo Partner</h2>
                         <ul class="list-banner">
                             <li class="banner">
-                                <!--<a href="#" target="_blank" itemprop="url">--><img class="effect" src="<?php bloginfo('template_directory'); ?>/images/azconnect.png" alt="株式会社アズコネクト" itemprop="image">
-                                <h3>株式会社アズコネクト</h3>
-                                <!--                                </a>-->
+                                <img class="effect" src="<?php bloginfo('template_directory'); ?>/images/azconnect.png" alt="アズコネクト株式会社" itemprop="image">
+                                <h3>アズコネクト株式会社</h3>
                             </li>
                         </ul>
                     </div>
